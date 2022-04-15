@@ -13,7 +13,7 @@ exports.up = (pgm) => {
       notNull: true,
     },
     year: {
-      type: 'smallint',
+      type: 'INTEGER',
       notNull: true,
     },
     genre: {
@@ -25,11 +25,11 @@ exports.up = (pgm) => {
       notNull: true,
     },
     duration: {
-      type: 'integer',
+      type: 'INTEGER',
       notNull: true,
     },
-    albumId: {
-      type: 'TEXT',
+    album_id: {
+      type: 'VARCHAR(50)',
       notNull: true,
     },
   });

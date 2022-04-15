@@ -13,7 +13,7 @@ exports.up = (pgm) => {
       notNull: true,
     },
     year: {
-      type: 'smallint',
+      type: 'INTEGER',
       notNull: true,
     },
   });
